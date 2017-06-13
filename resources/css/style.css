@@ -1,16 +1,23 @@
 body {
   font-family: Helvetica;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  text-align: left;
+  background-color: black;
+  padding: 1rem 2rem;
 }
 
 h3 {
   background-color: black;
-  padding: 7px;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -20,7 +27,9 @@ p {
 }
 
 .container-main {
-  /*padding: 0px 100px;*/
+  margin: 0 auto;
+  width: 960px;
+    /*padding: 0px 100px;*/
 }
 
 header {
@@ -30,13 +39,14 @@ header {
 
 .logo {
   background-color: black;
-  padding: 20px;
+  padding: .66rem;
 
 }
 
 .logo img {
-  height: 30px;
-  padding-right: 10px;
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
 }
 
 .logo span {
@@ -44,7 +54,7 @@ header {
 }
 
 .headercontainer {
-  height: 500px;
+  height: 25rem;
   width: 100%;
   background-image: url(../images/moto.jpeg);
   background-size: cover;
@@ -53,19 +63,21 @@ header {
 
 .newarrival {
   background-color: black;
-  height: 150px;
-  width: 300px;
+  height: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
 
 }
 
 .content {
-  padding: 22px;
+  padding: .25rem;
+  font-style: bold;
 }
 
 nav {
   background-color: firebrick;
   width: 100%;
-  padding: 20px;
+  padding: .75rem;
   display: flex;
   justify-content: space-around;
 }
@@ -74,29 +86,32 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 30px;
+  padding: 3rem;
 }
 
 .productcontainer img {
-  height: 200px;
-  width: 200px;
-  border: 3px black solid;
-  padding: 20px;
-}
-
-footer {
-  padding: 20px;
+  height: 9rem;
+  width: 9rem;
+  border: 4px black solid;
+  padding: 2rem;
 }
 
 .locationcontainer {
   display: flex;
   justify-content: space-around;
+  padding-top: 3rem;
 }
 
-.location {
-  width: 175px;
+.locationhour {
+  width: 35%;
+  padding: 1rem 2rem;
 }
 
-.hours {
-  width: 175px;
+
+footer {
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  text-align: left;
+  margin-top: 4rem;
 }
