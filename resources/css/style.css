@@ -26,21 +26,20 @@ p {
   padding: 7px;
 }
 
-.container-main {
+/*.container-main {
   margin: 0 auto;
-  width: 960px;
+  width: 960px;*/
     /*padding: 0px 100px;*/
-}
+/*}*/
 
 header {
   width: 100%;
-
 }
 
-.logo {
+.navbrand {
+  /*width: 100%;*/
   background-color: black;
-  padding: .66rem;
-
+  padding: .66rem 10rem;
 }
 
 .logo img {
@@ -55,44 +54,54 @@ header {
 
 .headercontainer {
   height: 25rem;
-  width: 100%;
-  background-image: url(../images/moto.jpeg);
+  /*width: 100%;*/
+  /*background-image: url(../images/moto.jpeg);
+  background-size: cover;*/
+  background: url(../images/moto.jpeg) no-repeat center center;
   background-size: cover;
   display: flex;
 }
 
-.newarrival {
+.headercontainer-lead {
+  font-weight: bold;
   background-color: black;
-  height: 9rem;
+  margin: 10rem;
+  padding: 2rem;
   width: 20rem;
-  padding: 2rem 3rem;
-
+  height: 5rem;
 }
 
-.content {
-  padding: .25rem;
-  font-style: bold;
+.headercontainer-lead h1 {
+  padding-top: .5rem;
 }
 
 nav {
   background-color: firebrick;
-  width: 100%;
-  padding: .75rem;
+  /*width: 100%;*/
+}
+
+.navmenu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 10rem;
+  padding: .75rem 0;
+  text-decoration: none;
 }
 
 .productcontainer {
-  width: 100%;
+  /*width: 100%;*/
   display: flex;
   justify-content: space-around;
   padding: 3rem;
 }
 
+.productcontainer-card {
+  border: 4px black solid;
+}
+
 .productcontainer img {
   height: 9rem;
   width: 9rem;
-  border: 4px black solid;
   padding: 2rem;
 }
 
